@@ -25,6 +25,6 @@
 
 5.  Melt Data to reshape and re-cast into meaningful table. Final table will be cast_data which summarized tests by activity type
 
-6. write data to tidy data file Human_Activity_Recognition_Using_Smartphones_tidy.csv
+6. write data to tidy data file Human_Activity_Recognition_Using_Smartphones_tidy.txt
 
 

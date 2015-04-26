@@ -49,6 +49,8 @@ Each dataset contains:
 	"f" - refers to frequency domain derived using FFT
 	Gyro - input from gyroscope
 	Acc - input from accelerometer
+	std - standard deviation
+	mean - mean of measurement
 	Used variables - total columns
 		tBodyAcc-XYZ - 6 col
 		tGravityAcc-XYZ - 6 col

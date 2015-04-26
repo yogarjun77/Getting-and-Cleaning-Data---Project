@@ -80,5 +80,5 @@ Y_train <- read.table("./train/y_train.txt")
                   
 #6 write data to tidy data file
 
-        write.table(cast_data, "Human_Activity_Recognition_Using_Smartphones_tidy.csv")
+        write.table(cast_data, "Human_Activity_Recognition_Using_Smartphones_tidy.txt")
 
