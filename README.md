@@ -1,4 +1,4 @@
-Step by step explanation to obtain tidy data set
+Step by step explanation to obtain tidy data set using run_analysis.R script
 
 ###1. Load necessary libraries - dplyr, data.table, plyr, reshape2
 
@@ -18,6 +18,6 @@ Step by step explanation to obtain tidy data set
 
 ###5.  Melt Data to reshape and re-cast into meaningful table. Final table will be cast_data which summarized tests by activity type
 
-###6. write data to tidy data file
+###6. write data to tidy data file Human_Activity_Recognition_Using_Smartphones_tidy.csv
 
-write.table(cast_data, "Human_Activity_Recognition_Using_Smartphones_tidy.csv")
+
