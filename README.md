@@ -1,5 +1,5 @@
-#The objective of the experiment is to build a database to recognize human activities using smartphones.
-The objective of the assignment is to generate a tidy data set of this experiment data to give a meaningful insight of the experiment - a logical summary for initial interpretation
+###The objective of the experiment is to build a database to recognize human activities using smartphones.
+###The objective of the assignment is to generate a tidy data set of this experiment data to give a meaningful insight of the experiment - a logical summary for initial interpretation
 
 Experiment brief:
 6 key activities are performed by 30 subjects to generate 2 data sets (randomly partitioned)
