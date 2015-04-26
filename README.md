@@ -8,9 +8,9 @@
 
 1. Load necessary libraries - dplyr, data.table, plyr, reshape2
 
-2 - assuming data unzipped already to /UCI HAR Dataset folder - create data frames for all files using read table function - 8 files in total
+2. Assuming data unzipped already to /UCI HAR Dataset folder - create data frames for all files using read table function - 8 files in total
 
-3. - Creating a master_data set that combines all the data
+3. Creating a master_data set that combines all the data
 
 	features.txt will be the names of 561 columns in all the tables. Clean it up to all lower case, remove ()
 
@@ -19,7 +19,7 @@
 	verify proper length/rows
 
 
-4.  - extract only required mean and std measurements into clean_data - ignoring meanfreq and angle(...) tests
+4.  Extract only required mean and std measurements into clean_data - ignoring meanfreq and angle(...) tests
 
 
 5.  Melt Data to reshape and re-cast into meaningful table. Final table will be cast_data which summarized tests by activity type
