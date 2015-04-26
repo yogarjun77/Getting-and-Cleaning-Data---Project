@@ -1,7 +1,8 @@
-#3 files - 
+#4 files - 
 ###readme.md - to explain the derivation of tidy data set using run_analysis.R script
 ###run_analysis.R - R script to generate tidy data set
 ###codebook.md - explanation of variable selections and experiment details
+###Human_Activity_Recognition_Using_Smartphones_tidy.csv - as final output
 
 
 ###Step by step explanation to obtain tidy data set using run_analysis.R script
