@@ -37,10 +37,6 @@ Each dataset contains:
 	8. y_train.txt - activity labels for train
 	
 	
-	Ignored - Inertial signals data - 
-	Why? - as these are the unprocessed raw data and are provided for more detailed computations and studies
-	
-	Combining these data creates an initial table(master_data) of 561 columns and 10299 rows needs to be tidied up
 	
 ###Variables selection
 	Activity and subject added as 1st and second column
@@ -69,21 +65,21 @@ Each dataset contains:
 		fBodyAccJerkMag - 2 col
 		fBodyGyroMag - 2 col
 		fBodyGyroJerkMag - 2 col
+		
 	Total columns = 2 + 6*8 + 2*9 = 68
 
 	Ignored - meanfreq and angle(...) data
 		meanFreq is omitted as it is not a pure mean/std measurement and it exists only for f domain datasets
 		angle(...)data - is the angle between vectors
-		"angle(tbodyaccmean,gravity)"          "angle(tbodyaccjerkmean),gravitymean)"
-		"angle(tbodygyromean,gravitymean)"     "angle(tbodygyrojerkmean,gravitymean)"
-		"angle(x,gravitymean)"                 "angle(y,gravitymean)"                
-		"angle(z,gravitymean)"                
+		"angle.tBodyAccJerkMean..gravityMean" "angle.tBodyGyroMean.gravityMean"    
+                "angle.tBodyGyroJerkMean.gravityMean" "angle.X.gravityMean"                
+                "angle.Y.gravityMean"                 "angle.Z.gravityMean"        
 	
-	Table now contains 68 columns and 10299 rows
+	
 	
 ###Variables naming
 	The names are pretty long and complex. In the end it is difficult to create a very meaningful naming convention
-	Instead -  spaces and unnecessary brackets are removed and all set to lower cases
+	Instead -  spaces, dashes and unnecessary brackets are removed. Periods and Capital letters are used to easily differentiate variables
 	Codebook is updated with list of variables
 	
 ###Final table
@@ -91,12 +87,12 @@ Each dataset contains:
 	Summarizing by activity type would show how well each activity was measured across the 30 subjects 
 	Why? - to understand how effective the smartphone is able to identify the activity of the subject 
 		and understand average deviations and means of the measurements
-	Columns - 68, rows - 180
+	
 	
 	
 
 ###License/Link:
-========
+
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
